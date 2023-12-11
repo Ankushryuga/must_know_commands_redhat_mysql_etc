@@ -52,3 +52,15 @@ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '123';
 3. sudo systemctl start mysqld.service
 
 4. sudo systemctl status mysqld.service
+
+
+
+### check max connections:
+show variables like "%max_connections%";
+show global variables like '%max_connections%';
+
+
+
+
+
+
